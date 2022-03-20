@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
+th,
+td {
+  border: 1px solid lightgray;
+  padding: 10px 20px;
+}
