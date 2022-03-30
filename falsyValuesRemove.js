@@ -43,8 +43,10 @@ const mixedObj = {
 const truthyObj = (obj) => {
   for (let i in obj) {
     if (!obj[i]) {
-      delete onj[i];
+      delete obj[i];
     }
   }
   return obj;
 };
+
+console.log(truthyObj(mixedObj))
